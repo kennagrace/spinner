@@ -1,0 +1,173 @@
+picture {
+    width:100% }
+
+body{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+nav{
+    text-align: left;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+ }
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: 'Euphoria Script', cursive;
+    color: #507882
+    }
+
+.font2{
+    font-family: 'Raleway', sans-serif;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    color: #507882;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Euphoria Script', cursive;
+    color: #507882
+}
+
+a:hover{
+    color: #edd7c8;
+}
+
+.button{
+    background-color: #e1eff0;
+    text-align:center;
+    color: black;
+    padding: 8px 15px;
+    font-size: 20px; 
+    border-radius: 10px;
+
+}
+
+.button:hover {
+    background-color: #edd7c8;
+    color: black;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+main{
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 50rem;
+}
+
+
+.cards{
+    display:flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .cards {
+    display: flex;
+    margin: 3rem var(--gutter) 10rem;
+ }
+ 
+ .card a {
+    text-decoration: none;
+    color: #fff;
+ }
+ 
+ .card {
+    margin: 3rem .75rem;
+    position: relative;
+    flex: 20%;
+ }
+ 
+ .card:last-child {
+    margin-right: 0;
+ }
+ 
+ .card .overlay {
+    background-color: rgba(0, 0, 0, .6);
+    opacity: 0;
+ }
+ 
+ .card .overlay p {
+    margin: 1em 1rem 1rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: #fff
+ }
+ 
+ .card:hover .overlay {
+    opacity: 1;
+ }
+
+ .font4 {
+    font-family: 'Euphoria Script', cursive;
+    color: #507882;
+    font-size: 30px;
+    }
+
+ .font5 {
+    font-family: 'Raleway', sans-serif;
+    color: #507882;
+    font-size: 50px;
+    }
+
+.p2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+    font-size: 20px;
+}
+
+.scrip {
+    font-family: 'Raleway', sans-serif;
+    color: #507882;
+    font-size: 30px;
+    }
+
+    .loader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
